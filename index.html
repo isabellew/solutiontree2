@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="se">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="treestyle.css" type="text/css" rel="stylesheet"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<script src="javascriptet.js"></script>
+		<script src="jquery.zoomooz.min.js"></script>
+	
+	<script>
+
+   	         $(document).ready(function() {
+         $('#container').click(function(evt) {
+            evt.stopPropagation();
+        $(this).zoomTo({duration:1000, targetsize:1.0});
+        $(".label").show();
+        $(".infotext1").hide();
+        $(".infotext2").hide();
+        $(".button").hide();
+
+    });
+                
+        $('#label1').click(function(evt) {
+            evt.stopPropagation();
+        $(this).zoomTo({duration:1000, targetsize:0.6});
+        $("#label1").hide();
+        $("#button2").show();
+        $("#text3").show();
+                
+            });
+        
+        $('#label2').click(function(evt) {
+            evt.stopPropagation();
+        $(this).zoomTo({duration:1000, targetsize:0.6});
+        $("#label2").hide();
+        $("#button1").show();
+        $("#text1").show();
+      
+            });
+
+        $('#problembutton').click(function() {
+            $('#share').toggle();
+            $('#solution').hide();
+        });
+
+        $('#solutionbutton').click(function() {
+            $('#solution').toggle();
+            $('#share').hide();
+        });
+
+        $('#About').click(function() {
+            $('#aboutinfo').toggle();
+            $('#solution').hide();
+            $('#share').hide();
+        });
+
+      
+
+             $("#button1").click(function() {
+                $(".infotext1").toggle();
+                
+             });
+
+              $("#button2").click(function() {
+                $(".infotext2").toggle();
+                
+             });
+         });
+
+
+        window.onload = function() {
+            $('#container').zoomTo({duration:1000, targetsize:1.0});
+        }
+
+      
+	</script>
+        <title> Solutiontree </title>   
+  </head>
+  <body id="body">
+    <div id="container">
+    	<h1> THE SOLUTION TREE</h1>
+    		<div id="menu1">
+         
+    			<nav id="main-nav">
+    <ul id="nav-primary">
+        <li><a href="#" id="About">About us</a>
+
+            <ul class="subnav">
+                
+            </ul>
+        </li>
+        
+        <li><a href="#">Share</a>
+
+            <ul class="subnav">
+                <li><a id="problembutton" class="sharebutton">Problem</a>
+                </li>
+                <li><a id="solutionbutton" class="sharebutton">Solution</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+    		</div>
+
+    	
+			<div id="content">
+                <div class="windows" id="share">
+                <a class='boxclose' id='boxclose'></a>
+            <h1>PROBLEM? WRITE IT DOWN</h1>
+
+            <p>Do you experience a lack of human rights in your life? Are you, or someone near you affected negatively by structures, laws, comments, actions or norms in your community? If “no”: Good for you, if “yes”: Then you have come in contact with a problem. If you cannot already find your problem on the tree, feel free to submit it to us with a brief explanation.
+            These are examples of problems: Corruption, hate speech, bad education, rape culture, homophobic music, racist jokes, police brutality. <br><br>
+
+            <p style="font-style:italic">“I find racist jokes a problem in my country since they reduce the issue of racism and shows that it’s acceptable to be a racist as long as you’re funny at the same time. This attitude reproduces racism and makes it a part of our everyday life"</p>
+            <br>
+            <a href="share.html">To the form -></a>
+            </p>
+
+            </div>
+
+            <div class="windows" id="solution">
+                <a class='boxclose' id='boxclose'></a>
+
+                <h1>SOLUTION? PERFECT, PLEASE SHARE WITH US</h1>
+<p>Do you have a solution to any of the problems identified in the tree? Perhaps you’re a part of an organization working on with children’s rights, maybe you know of a project promoting girls role in sports, or you could just have a tip of how to tackle racist jokes. All solutions, big or small, are welcome. So if you have a banging solution, please, share it with us!
+These are examples of solutions: A project educating the police force in non-discrimination, a blog promoting LGBT rights, not ignoring the homeless man on the subway but instead answer him. Stop being passive, and instead questioning a friend making a sexist/racist/homophobic comment.</p>
+
+<p style="font-style:italic">“When someone tells a racist joke I don’t laugh or sit quiet. Instead I challenge the person to explain what part of that joke could possibly be considered funny. When they start to explain its obvious how the “joke” is racist and degrading towards other people. This realization usually makes them angry or sometimes create an awkward situation. But I much prefer awkwardness before racism.”</p>
+
+<P>Solution to what problem: Racist jokes, Solution: Questioning the content of the joke</P>
+
+<a href="solution.html">To the form -></a>
+            
+        </div>
+
+<div class="windows" id="aboutinfo">
+<a class='boxclose' id='boxclose'></a>
+
+<h1>ABOUT THE SOLUTION TREE</h1>
+<p>, and welcome to our site “The Solution Tree”
+The solution tree aims at providing you with resolutions to different human rights violations you experience. Perhaps you are a student, or a representative for a school, organization or corporation. If you’re not, don’t worry, it’s more than okay to be a human being with a big heart and a desire to help out and make a change.
+<br>
+The idea for the solution tree was created during the International Youth Conference by Anne Frank House as a project by the Swedish participant Julia Willgård. Talking to people in the pub, the classroom or at work, Julia discovered that most people in Sweden share the values of human rights. But there are few people actually getting involved in doing something to fulfill these ideals. The solution tree is a way for you (who want to help and make a change) to get in touch with projects/organisations/ideas in an easy and quick manner.</p>
+
+
+</div>
+
+       
+				 
+				<object class="tree" data="treeimage.png" >
+				    <embed class="tree" src="treeimage.png" width="750px" height="277.5px"/>
+				</object>
+				<div class="label" id="label1">
+					Feminism
+				</div>
+				<div class="label" id="label2">
+					Rasism
+                </div>
+                <div class="infotext1" id="text1"> 
+                      En text om rasism
+                    
+                </div>
+                <div class="infotext1" id="text2"> 
+                     En annan text om rasism 
+                     
+                </div>
+                <div class="infotext2" id="text3">
+                    En text om feminism
+                </div>
+                <div class="infotext2" id="text4">
+                    En annan text om feminism
+                </div>
+
+            </div>
+              
+
+		</div>
+        <div class="vidare">
+                   <button type="button" class="button" id="button1"> 
+                        GÅ VIDARE
+                   </button>
+                </div>
+
+        <div class="vidare">
+                   <button type="button" class="button" id="button2"> 
+                        GÅ VIDARE
+                   </button>
+                </div>
+
+      
+
+
+    
+    </body>
+</html>
