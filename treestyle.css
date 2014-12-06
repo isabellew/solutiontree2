@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html {
     min-height: 100%;
@@ -316,3 +317,38 @@ a.boxclose{
 } 
 
 
+=======
+body {
+text-align: center; 
+
+}
+
+ 
+.image {
+	margin: auto;
+	width: 904px;
+
+}
+
+.table1 {
+	position: absolute; 
+   top: 200px; 
+   left: 200px; 
+   width: 100%; 
+
+}
+
+hgroup {
+position: fixed;
+margin-top: 35px;
+margin-bottom: 80px;
+}
+
+h1 {
+color: #F9B7FF; 
+font-family: Bookman Old Style, serif;
+text-shadow:2px 2px #FDFDF0;
+font-size: 36px;
+
+}
+>>>>>>> 53b182ce677acd40116d26a08470b1bf08e28883
