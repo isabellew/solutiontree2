@@ -1,6 +1,40 @@
-<?php
 
-	if(isset($_POST['email'])) {
+
+<? php
+
+$category = $name = $email = $country = $problem = $why = $who = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+   $category = test_input($_POST["category"]);
+   $name = test_input($_POST["name"]);
+   $email = test_input($_POST["email"]);
+   $country = test_input($_POST["country"])
+   $problem = test_input($_POST["problem"]);
+   $who = test_input($_POST["who"]);
+   $why = test_input($_POST["why"])
+}
+
+function test_input($data) {
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
+?>
+ <? php
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $country;
+echo "<br>";
+echo $problem;
+echo "<br>";
+echo $why;
+
+
+	/* if(isset($_POST['email'])) {
  
      
  
@@ -144,6 +178,8 @@ $headers = 'From: '.$email."\r\n".
  
 @mail($email_to, $email_subject, $email_message, $headers);  
  
+ 
 
+*/ 
 
-?>
+?> 
