@@ -1,7 +1,7 @@
 
            $(document).ready(function() {
 
-        /*$('#container').zoomTo({duration:1000, targetsize:1.0});*/
+        
         
         $('#label1').click(function(evt) {
             evt.stopPropagation();
@@ -119,8 +119,11 @@
         $('.infotext6').hide();
         $('.button').hide();
     });
+        
          });
-                
+           window.onload = function() {
+            $('#container').zoomTo({duration:1000, targetsize:1.0});
+        }     
 
 
        

@@ -157,7 +157,7 @@ Thank you for contacting us. We will be in touch with you very soon.
    <div id="container">
       <div id="content2">
 
-      <a href = "index.html" id="sharelink">
+     s <a href = "index.html" id="sharelink">
                             <img src="back.png">
            </a>
 

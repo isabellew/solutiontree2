@@ -2,6 +2,7 @@
 
 html {
     min-height: 100%;
+<<<<<<< HEAD
   
 
 }
@@ -29,11 +30,24 @@ body {
 
 
 #container2 {
+=======
+}
+
+body {
+
+text-align: center;
+
+} 
+
+
+#container {
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     
     width:900px;
     height:100%;
 
     
+<<<<<<< HEAD
     background-color:#99FFFF;
     
 }
@@ -46,6 +60,12 @@ body {
 
 }
 
+=======
+    background-color:white;
+    
+}
+
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 #table1 {
 	margin-left:auto; 
     margin-right:auto;
@@ -53,6 +73,7 @@ body {
     background-color: pink;
 }
 
+<<<<<<< HEAD
 .boxtext {
     font-size:15px;
     font-family:"verdana", sans-serif;
@@ -90,6 +111,14 @@ body {
     top:140px;
     width:90px;
     font-weight: bold;
+=======
+
+
+#label1 {
+    left:160px;
+    top:105px;
+    width:90px;
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
 }
@@ -98,11 +127,15 @@ body {
     left:460px;
     top:285px;
     width:150px;
+<<<<<<< HEAD
     font-weight: bold;
+=======
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
 }
 
+<<<<<<< HEAD
 #label3 {
     left: 360px;
     top: 80px;
@@ -148,6 +181,15 @@ div.label {
     color:#aaa;
     
 
+=======
+div.label {
+    padding:10px;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    color:#aaa;
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     -webkit-user-select:none;
 	-moz-user-select:none;
 }
@@ -156,6 +198,7 @@ div.label:hover {
     color:#333;
     cursor:pointer;
     cursor:hand;
+<<<<<<< HEAD
     font-size:35px;
     line-height: 23px;
 }
@@ -422,13 +465,19 @@ div.label:hover {
     line-height: 5px;
     letter-spacing: 0px;
     font-weight: normal;
+=======
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 }
 
 .tree {
      pointer-events: none;
+<<<<<<< HEAD
      -webkit-tap-highlight-color:transparent;
      margin-bottom:0px;
      margin-left:-60px;
+=======
+
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 
 
 }
@@ -436,7 +485,11 @@ div.label:hover {
 
 #content {
     position:relative;
+<<<<<<< HEAD
     -webkit-tap-highlight-color:transparent;
+=======
+    
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     margin-left:auto;
     margin-right:auto;
     width: 900px;
@@ -453,17 +506,24 @@ div.label:hover {
     margin-right: 450px;
 }
 
+<<<<<<< HEAD
 .menutxt {
     font-family: "verdana", sans-serif;
     font-weight: bold;
 }
 
+=======
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 #main-nav {
     width: 330px;
     margin-left: 285px;
     height: 68px;
+<<<<<<< HEAD
     background: #F5F7F0;
     border:solid 1px #eeeeee;
+=======
+    background: #f2f2f2;
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 }
 #main-nav .subnav {
     display: none;
@@ -472,7 +532,11 @@ div.label:hover {
     left: 0px;
     width: 100%;
     list-style-type: none;
+<<<<<<< HEAD
     background: #F5F7F0;
+=======
+    background: #fff;
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     margin: 0;
     border:solid 1px #eeeeee;
     z-index:5;
@@ -489,10 +553,16 @@ div.label:hover {
     height:18px;
     padding:10px 0;
     font-size:13px;
+<<<<<<< HEAD
     font-family: "verdana", sans-serif;
 }
 #main-nav .subnav li a:hover {
     background:#fff;
+=======
+}
+#main-nav .subnav li a:hover {
+    background:#f9f9f9;
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 }
 #nav-primary {
     list-style-type: none;
@@ -509,8 +579,11 @@ div.label:hover {
     color: #000;
     text-align: center;
     font-size: 14px;
+<<<<<<< HEAD
     font-family: "verdana", sans-serif;
     font-weight:bold;
+=======
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     height: 48px;
     padding-top: 19px;
     line-height: 16px;
@@ -519,7 +592,10 @@ div.label:hover {
 }
 #nav-primary li a:hover {
     text-decoration:none;
+<<<<<<< HEAD
     background:#fff;
+=======
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 }
 #nav-primary li:hover .subnav {
     display: block;
@@ -547,6 +623,7 @@ div.label:hover {
 }
 
 
+<<<<<<< HEAD
 .windows {
     display:none;
     z-index: 99999;
@@ -558,11 +635,99 @@ div.label:hover {
     width: 600px;
     border-radius:15px;
     border:3px solid #F8F8F8;
+=======
+
+.infotext1 {
+
+    position:fixed;
+    left:140px;
+    top:200px;
+    width:150px;
+    -webkit-transform: rotate(+20deg);
+    -moz-transform: rotate(+20deg);
+
+}
+
+#button1 {
+
+    display:none;
+    position:fixed;
+    left:220px;
+    top:310px;
+    width:50px;
+    height: 15px;
+    font-size: 5px;
+    background-color: white;
+    -webkit-transform: rotate(+20deg);
+    -moz-transform: rotate(+20deg);
+    z-index: 9999;
+}
+
+.infotext2 {
+  
+    position:fixed;
+    left:460px;
+    top:380px;
+    width:150px;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+
+}
+
+#button2 {
+    display:none;
+    position:fixed;
+    left:615px;
+    top:435px;
+    width:50px;
+    height:15px;
+    font-size: 5px;
+    background-color: white;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    z-index: 9999;
+}
+
+#text1 {
+    display:none;
+}
+
+#text2 {
+    display: none;
+}
+
+#text3 {
+    display:none;
+}
+
+#text4 {
+    display:none;
+}
+
+.windows {
+    display:none;
+    z-index: 99999;
+    background-color: #E8E8E8;
+    position: absolute;
+    margin-top: 80px;
+    margin-left:150px;
+    padding: 20px;
+    width: 600px;
+    border:3px solid #ccc;
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
     -moz-box-shadow: 0 1px 5px #333;
     -webkit-box-shadow: 0 1px 5px #333;
     
 }
 
+<<<<<<< HEAD
+=======
+#solution #share{
+    font-family: "Georgia", serif;
+    font-size: 12pt;
+}
+
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 
 
 
@@ -587,12 +752,15 @@ a.boxclose{
 
 }
 
+<<<<<<< HEAD
 #boxcloselabel {
     margin-right: -12px;
     font-size: 12px;
     padding-top:5px;
     padding-bottom:7px;
 }
+=======
+>>>>>>> a807ef084136acfb668a45bc27c429d236fb1022
 
 
 
