@@ -22,7 +22,7 @@ if(isset($_POST['email'])) {
  
      
  
-    // EDIT THE 2 LINES BELOW AS REQUIRED
+    
  
     $email_to = "juliawillgard@solutiontree.se";
  
@@ -34,7 +34,7 @@ if(isset($_POST['email'])) {
  
     function died($error) {
  
-        // your errorr
+        // error message
  
         echo "<p style ='font-size:20px; font-family:segoe ui; padding-top:30px'>Your form could not be submitted:<br /><br />";
  
